@@ -1,7 +1,7 @@
 import pandas as pd
 import streamlit as st
 
-df = pd.read_csv("full_harvest_data.csv", parse_dates=["siembra"])
+df = pd.read_csv("fe/full_harvest_data.csv", parse_dates=["siembra"])
 
 st.title("Demand Forecasting")
 
