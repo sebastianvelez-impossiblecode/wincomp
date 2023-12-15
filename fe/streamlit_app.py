@@ -25,8 +25,8 @@ if task == "df exploration":
 
     display_df = df[
         (df["variedad"] == category)
-        & (df["date"] >= date_range[0])
-        & (df["date"] <= date_range[1])
+        & (df["siembra"] >= date_range[0])
+        & (df["siembra"] <= date_range[1])
     ]
 
     st.markdown(
