@@ -1,0 +1,12 @@
+# Compiled sources
+__pycache__/
+
+# Mac
+.DS_Store
+
+# Ignore private developer env vars
+dev.env
+
+.vite
+.venv
+*.xlsx

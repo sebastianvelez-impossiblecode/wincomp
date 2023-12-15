@@ -1,0 +1,76 @@
+{
+    "files.encoding": "utf8",
+    "files.trimTrailingWhitespace": true,
+    "files.exclude": {
+        "**/venv": true,
+        "**/__pycache__": true,
+        "**/.mypy_cache": true,
+        "**/.pytest_cache": true,
+        "**/node_modules": true,
+        "**/dist": true,
+    },
+    "[python]": {
+        "editor.formatOnPaste": false,
+        "editor.renderWhitespace": "trailing",
+        "editor.insertSpaces": true,
+        "editor.formatOnSave": true,
+        "editor.formatOnSaveMode": "file",
+        "editor.codeActionsOnSave": {
+            "source.fixAll": "explicit",
+            "source.organizeImports": "explicit"
+        },
+        "editor.defaultFormatter": "charliermarsh.ruff"
+
+    },
+    "python.envFile": "${workspaceFolder}/be/.env",
+    "python.terminal.activateEnvInCurrentTerminal": true,
+    "editor.detectIndentation": true,
+    "editor.tabSize": 4,
+    "git.autofetch": true,
+    "git.mergeEditor": true,
+    "eslint.format.enable": true,
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": "explicit"
+    },
+    "[javascript, vue]": {
+        "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+    },
+    "eslint.workingDirectories": [
+        "./fe",
+    ],
+    "eslint.lintTask.enable": false,
+    "eslint.run": "onType",
+    "eslint.options": {
+        "overrideConfig": {
+            "env": {
+                "browser": true,
+            },
+            "extends": [
+                "eslint:recommended",
+                "plugin:vue/vue3-recommended"
+            ],
+            "plugins": [
+                "vue"
+            ],
+        },
+    },
+    "python.testing.autoTestDiscoverOnSaveEnabled": true,
+    "python.testing.pytestArgs": [
+        "."
+    ],
+    "python.testing.unittestEnabled": false,
+    "python.testing.pytestEnabled": true,
+    "cSpell.words": [
+        "backref",
+        "fastapi",
+        "sqlalchemy"
+    ],
+    "terminal.integrated.profiles.osx": {
+        "zsh": {
+            "path": "${userHome}/.oh-my-zsh",
+            "args": [
+                "ssh-add --apple-use-keychain ~/.ssh/id_rsa"
+            ]
+        }
+    },
+}

@@ -1,0 +1,23 @@
+{
+    "recommendations": [
+        "mhutchie.git-graph",
+        "srmeyers.git-prefix",
+        "eamodio.gitlens",
+        "github.remotehub",
+        "ms-python.python",
+        "ms-python.vscode-pylance",
+        "ms-toolsai.jupyter",
+        "charliermarsh.ruff",
+        "mechatroner.rainbow-csv",
+        "dbaeumer.vscode-eslint",
+        "vue.volar",
+        "vuetifyjs.vuetify-vscode",
+        "github.copilot"
+    ],
+    "unwantedRecommendations": [
+        "ms-python.black-formatter",
+        "magicstack.magicpython",
+        "octref.vetur"
+
+    ]
+}
